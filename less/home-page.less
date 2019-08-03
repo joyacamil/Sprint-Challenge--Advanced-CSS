@@ -4,14 +4,18 @@
 
   .intro {
 
+    img {
+      #imgEdges;
+    }
+
     h2 {
       padding: 15px;
     }
 
     p {
-      padding:0 15px;
+      padding: 0 15px;
     }
-  
+
   }
 
   .space-images {
@@ -58,18 +62,26 @@
       }
 
       .btn {
-      }
-    }
+        .btnDesign (white,@btn-bg-color,100px,30px) ;
 
-    .walk-img {
-      width: 46%;
-      margin-left: 4%;
-      
-      img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
+        &:hover {
+          .btnDesign (@btn-bg-color,white,100px,30px) ;
+        }
       }
     }
   }
-}// home
+
+  .walk-img {
+    width: 46%;
+    margin-left: 4%;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+}
+
+
+// home

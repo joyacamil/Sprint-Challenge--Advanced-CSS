@@ -1,1 +1,22 @@
 // Mixins Here
+#imgEdges {
+  border-radius: 10px;
+}
+
+#centered {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btnDesign (@btncolor,@btnbg,@width,@height) {
+        width: @width;
+        height: @height;
+        background-color: @btnbg;
+        border-radius: 5px;
+        color: @btncolor;
+        padding: 7px 15px;
+        text-align: center;
+        font-size: 1.6rem;
+}
+
+

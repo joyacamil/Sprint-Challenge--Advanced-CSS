@@ -1,3 +1,10 @@
+#imgEdges {
+  border-radius: 10px;
+}
+#centered {
+  text-align: center;
+  margin: 0 auto;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +175,7 @@ p {
 }
 .navbar h1 {
   text-align: center;
+  margin: 0 auto;
   font-size: 4rem;
 }
 .navbar nav {
@@ -192,6 +200,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 10px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -235,11 +246,31 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-img {
+.home .walk .walk-text .btn {
+  width: 100px;
+  height: 30px;
+  background-color: #22283A;
+  border-radius: 5px;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.home .walk .walk-text .btn:hover {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px;
+  color: #22283A;
+  padding: 7px 15px;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.home .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
