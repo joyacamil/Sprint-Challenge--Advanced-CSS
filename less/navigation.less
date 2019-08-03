@@ -5,6 +5,11 @@
   padding-top: 1%;
   padding-bottom: 1%;
 
+  @media @phone {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
   h1 {
     #centered;
     font-size: 4rem;
@@ -16,6 +21,10 @@
     width: 30%;
     #centered;
     margin-top: 1%;
+    
+    @media @phone {
+      width: 100%;
+    }
 
     a {
       text-decoration: none;
